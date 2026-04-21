@@ -346,15 +346,21 @@ export default function Home() {
         </main>
 
         {/* Footer */}
-        <footer className="border-t border-border bg-white mt-16">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-              <p>&copy; {new Date().getFullYear()} html-to-markdown. Free online HTML to Markdown converter.</p>
-              <div className="flex gap-4">
-                <span>Built with Next.js</span>
-                <span>&middot;</span>
-                <span>100% Client-Side</span>
+        <footer className="border-t border-gray-200 py-8 text-center">
+          <div className="max-w-3xl mx-auto px-4">
+            <p className="text-sm text-gray-500 mb-4">HTML to Markdown Converter — Free online tool. No signup required.</p>
+            <div className="mb-4">
+              <p className="text-xs text-gray-400 mb-2">Related Tools</p>
+              <div className="flex flex-wrap justify-center gap-2">
+                <a href="https://markdown-preview-pi-sandy.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Markdown Preview</a>
+                <a href="https://mdtable.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">MD Table</a>
+                <a href="https://html-entity-sigma.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">HTML Entity</a>
+                <a href="https://json-formatter-topaz-pi.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">JSON Formatter</a>
+                <a href="https://minify-css.vercel.app" target="_blank" rel="noopener noreferrer" className="text-xs text-blue-600 hover:text-blue-800 px-2 py-1 bg-blue-50 rounded">Minify CSS</a>
               </div>
+            </div>
+            <div className="flex justify-center gap-3 text-xs text-gray-400">
+              <a href="https://cc-tools.vercel.app" target="_blank" rel="noopener noreferrer" className="hover:text-gray-600">53+ Free Tools →</a>
             </div>
           </div>
         </footer>
